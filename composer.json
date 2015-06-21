@@ -11,6 +11,9 @@
             "email": "mikulas@dite.pro"
         }
     ],
+    "autoload": {
+        "classmap": ["src"]
+    },
     "minimum-stability": "stable",
     "require": {}
 }
