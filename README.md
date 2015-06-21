@@ -1,6 +1,8 @@
 Vlna
 ====
 
+[![Build Status](https://travis-ci.org/Mikulas/vlna.svg)](https://travis-ci.org/Mikulas/vlna)
+
 Replaces regular space with a non-breaking space in places
 where line break should not occur as per Czech language spec.
 
