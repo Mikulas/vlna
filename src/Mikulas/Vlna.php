@@ -36,6 +36,7 @@ class Vlna
 	public function __invoke($t)
 	{
 		$this->v($t, '\p{Lu}\.', '\p{Lu}'); // L. Pilař
+		$this->v($t, '\b\p{Ll}\.', '\p{Lu}'); // p. Novák
 
 		/** @see https://cs.wikipedia.org/wiki/Akademick%C3%BD_titul */
 		$this->v($t, '(akad|Bc|BcA|CSc|doc|Dr|DrSc|DSc|ICDr|Ing|JUDr|MDDr|MgA|Mgr|MSDr|MUDr|MVDr|PaedDr|Ph\.D|PharmDr|PhDr|PhMr|prof|RCDr|RNDr|RSDr|RTDr|Th\.D|ThDr|ThLic|ThMgr|DiS)\.');

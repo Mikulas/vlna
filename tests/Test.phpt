@@ -45,6 +45,7 @@ class Test extends TestCase
 	public function test36()
 	{
 		$this->test('L.~Pilař', 'L. Pilař');
+		$this->test('p.~Novák', 'p. Novák');
 		$this->test('Ano. Pilař.', 'Ano. Pilař.');
 
 		$this->test('MUDr.~Novák', 'MUDr. Novák');
