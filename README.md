@@ -10,10 +10,9 @@ Usage
 -----
 
 ```php
-$vlna = new Mikulas\Vlna();
+$vlna = new Mikulas\Vlna('~');
 
 $vlna("Dr. Novák má čas v neděli!");
-// Output (with ~ denoting nbsp U+00A0):
 // Dr.~Novák má čas v~neděli!
 ```
 
