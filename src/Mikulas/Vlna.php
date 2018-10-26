@@ -45,7 +45,7 @@ class Vlna
 		$this->v($t, '\d\.', '\p{Ll}'); // 15. km
 		$this->v($t, '\w\.', '\d|\p{Ll}'); // tab. 7, a. s.
 
-		$this->v($t, '\b(k|s|v|z|a|i|o|u)');
+		$this->v($t, '\b(k|s|v|z|a|i|o|u|K|S|V|Z|A|I|O|U)');
 
 		$this->v($t, '', '-|–'); // hyphen or ndash
 		$this->v($t, '-|–', '\d'); // hyphen or ndash in '7 - 3'
