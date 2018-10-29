@@ -72,6 +72,7 @@ class Test extends TestCase
 	public function test38()
 	{
 		$this->test('foo k~s~v~z~a~i~o~u~bar', 'foo k s v z a i o u bar');
+		$this->test('foo K~S~V~Z~A~I~O~U~bar', 'foo K S V Z A I O U bar');
 	}
 
 	/**
